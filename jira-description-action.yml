@@ -15,4 +15,4 @@ jobs:
           skip-branches: '^(production-release|main|master|release\/v\d+)$'
           custom-issue-number-regexp: ${{ secrets.JIRA_ISSUE_NUMBER_REGEX }}
           jira-project-key: ${{ secrets.JIRA_PROJECT_KEY }}
-          fail-when-jira-issue-not-found: true
+          fail-when-jira-issue-not-found: false
