@@ -2,12 +2,6 @@ name: jira-description-action
 on:
   pull_request:
     types: [opened, edited, synchronize, reopened]
-    branches:
-      - '!dependabot/**'
-      - '!**-dependabot-**'
-      - '!main'
-      - '!master'
-      - '!changeset-release/**'
 
 jobs:
   add-jira-description:
