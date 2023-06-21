@@ -18,6 +18,6 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           jira-token: ${{ secrets.JIRA_TOKEN }}
           jira-base-url: ${{ secrets.JIRA_URL }}
-          skip-branches: '^(production-release|main|master|release\/v\d+)$'
+          skip-branches: '^(production-release|main|master|release|dependabot\/v\d+)$'
           fail-when-jira-issue-not-found: false
           use: both
